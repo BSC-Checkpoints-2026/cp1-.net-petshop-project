@@ -1,6 +1,22 @@
-﻿namespace PetShop.Domain.Entities;
+﻿using PetShop.Domain.Commom;
 
-public class Customer
+namespace PetShop.Domain.Entities;
+
+public class Customer : BaseEntity
 {
+    public string FirstName { get; private set; }
+
+    public string LastName { get; private set; }
+
+    public string CPF { get; private set; }
+
+    public string Email { get; private set; }
+
+    public string PhoneNumber { get; private set; }
+
+    public string Address { get; private set; }
     
+    // Relacionamentos 
+    // public List<Pet> Pets { get; set; } = new List<Pet>();
+    // public List<Order> Orders { get; set; } = new List<Order>();
 }
