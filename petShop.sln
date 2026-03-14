@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetShop.API", "PetShop.API\PetShop.API.csproj", "{9E252ED4-1D66-4468-B033-C1CB9ABF9D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetShop.Domain", "PetShop.Domain\PetShop.Domain.csproj", "{087BDD99-985A-4FBE-8D1D-D055873E3DDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E252ED4-1D66-4468-B033-C1CB9ABF9D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E252ED4-1D66-4468-B033-C1CB9ABF9D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E252ED4-1D66-4468-B033-C1CB9ABF9D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E252ED4-1D66-4468-B033-C1CB9ABF9D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087BDD99-985A-4FBE-8D1D-D055873E3DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087BDD99-985A-4FBE-8D1D-D055873E3DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087BDD99-985A-4FBE-8D1D-D055873E3DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087BDD99-985A-4FBE-8D1D-D055873E3DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
