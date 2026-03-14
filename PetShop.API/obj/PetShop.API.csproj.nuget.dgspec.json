@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moise\\Documents\\fiap_c#\\petShop\\PetShop.API\\PetShop.API.csproj": {}
+    "C:\\Users\\Professor\\RiderProjects\\cp1-.net-petshop-project\\PetShop.API\\PetShop.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moise\\Documents\\fiap_c#\\petShop\\PetShop.API\\PetShop.API.csproj": {
+    "C:\\Users\\Professor\\RiderProjects\\cp1-.net-petshop-project\\PetShop.API\\PetShop.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moise\\Documents\\fiap_c#\\petShop\\PetShop.API\\PetShop.API.csproj",
+        "projectUniqueName": "C:\\Users\\Professor\\RiderProjects\\cp1-.net-petshop-project\\PetShop.API\\PetShop.API.csproj",
         "projectName": "PetShop.API",
-        "projectPath": "C:\\Users\\moise\\Documents\\fiap_c#\\petShop\\PetShop.API\\PetShop.API.csproj",
-        "packagesPath": "C:\\Users\\moise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moise\\Documents\\fiap_c#\\petShop\\PetShop.API\\obj\\",
+        "projectPath": "C:\\Users\\Professor\\RiderProjects\\cp1-.net-petshop-project\\PetShop.API\\PetShop.API.csproj",
+        "packagesPath": "C:\\Users\\Professor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Professor\\RiderProjects\\cp1-.net-petshop-project\\PetShop.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\moise\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Professor\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\moise\\.dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Users\\Professor\\.dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
