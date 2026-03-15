@@ -2,5 +2,6 @@
 
 public enum GenderEnum
 {
-    
+    M,
+    F
 }
