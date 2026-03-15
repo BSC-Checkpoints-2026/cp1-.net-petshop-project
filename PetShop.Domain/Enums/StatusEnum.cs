@@ -2,8 +2,9 @@
 
 public enum StatusEnum
 {
-    Scheduled,    // Agendado
-    InProgress,  // Em andamento
-    Completed,  // Concluído
-    Cancelled  // Cancelado
+    PENDENTE,
+    CONFIRMADO,
+    EM_ANDAMENTO,
+    CONCLUIDO,
+    CANCELADO
 }

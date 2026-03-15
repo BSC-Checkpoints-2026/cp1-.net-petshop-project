@@ -21,4 +21,15 @@ public class Appointment : BaseEntity
     //public Pet Pet { get; private set; }
     //public Service Service { get; private set; }
     //public Employee Employee { get; private set; }
+    
+    // Construtor
+
+    public Appointment(DateTime appointmentDate, StatusEnum status, Guid petId, Guid serviceId, Guid employeeId)
+    {
+        AppointmentDate = appointmentDate;
+        Status = status;
+        PetId = petId;
+        ServiceId = serviceId;
+        EmployeeId = employeeId;
+    }
 }
