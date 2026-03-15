@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\moise\\.nuget\\packages\\": {}
+    "C:\\Users\\JOSEPC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moise\\Documents\\fiap_c#\\petShop\\src\\PetShop.Domain\\PetShop.Domain.csproj",
+      "projectUniqueName": "C:\\FIAP\\2TDSPG\\Advanced Business Development with .NET\\Checkpoints\\cp1-.net-petshop-project\\src\\PetShop.Domain\\PetShop.Domain.csproj",
       "projectName": "PetShop.Domain",
-      "projectPath": "C:\\Users\\moise\\Documents\\fiap_c#\\petShop\\src\\PetShop.Domain\\PetShop.Domain.csproj",
-      "packagesPath": "C:\\Users\\moise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moise\\Documents\\fiap_c#\\petShop\\src\\PetShop.Domain\\obj\\",
+      "projectPath": "C:\\FIAP\\2TDSPG\\Advanced Business Development with .NET\\Checkpoints\\cp1-.net-petshop-project\\src\\PetShop.Domain\\PetShop.Domain.csproj",
+      "packagesPath": "C:\\Users\\JOSEPC\\.nuget\\packages\\",
+      "outputPath": "C:\\FIAP\\2TDSPG\\Advanced Business Development with .NET\\Checkpoints\\cp1-.net-petshop-project\\src\\PetShop.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\moise\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\JOSEPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -44,7 +44,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\moise\\.dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\JOSEPC\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
