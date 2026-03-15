@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FIAP\\2TDSPG\\Advanced Business Development with .NET\\Checkpoints\\cp1-.net-petshop-project\\src\\PetShop.API\\PetShop.API.csproj": {}
+    "C:\\Users\\moise\\RiderProjects\\cp1-.net-petshop-project\\src\\PetShop.API\\PetShop.API.csproj": {}
   },
   "projects": {
-    "C:\\FIAP\\2TDSPG\\Advanced Business Development with .NET\\Checkpoints\\cp1-.net-petshop-project\\src\\PetShop.API\\PetShop.API.csproj": {
+    "C:\\Users\\moise\\RiderProjects\\cp1-.net-petshop-project\\src\\PetShop.API\\PetShop.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FIAP\\2TDSPG\\Advanced Business Development with .NET\\Checkpoints\\cp1-.net-petshop-project\\src\\PetShop.API\\PetShop.API.csproj",
+        "projectUniqueName": "C:\\Users\\moise\\RiderProjects\\cp1-.net-petshop-project\\src\\PetShop.API\\PetShop.API.csproj",
         "projectName": "PetShop.API",
-        "projectPath": "C:\\FIAP\\2TDSPG\\Advanced Business Development with .NET\\Checkpoints\\cp1-.net-petshop-project\\src\\PetShop.API\\PetShop.API.csproj",
-        "packagesPath": "C:\\Users\\JOSEPC\\.nuget\\packages\\",
-        "outputPath": "C:\\FIAP\\2TDSPG\\Advanced Business Development with .NET\\Checkpoints\\cp1-.net-petshop-project\\src\\PetShop.API\\obj\\",
+        "projectPath": "C:\\Users\\moise\\RiderProjects\\cp1-.net-petshop-project\\src\\PetShop.API\\PetShop.API.csproj",
+        "packagesPath": "C:\\Users\\moise\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moise\\RiderProjects\\cp1-.net-petshop-project\\src\\PetShop.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JOSEPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\moise\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\JOSEPC\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Users\\moise\\.dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

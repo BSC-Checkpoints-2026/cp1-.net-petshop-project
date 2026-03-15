@@ -17,8 +17,8 @@ public class Customer : BaseEntity
     public string Address { get; private set; }
     
     // Relacionamentos 
-    public List<Pet> Pets { get; set; } = new List<Pet>();
-    // public List<Order> Orders { get; set; } = new List<Order>();
+    public List<Pet> Pets { get; private set; } = new List<Pet>();
+    public List<Order> Orders { get; private set; } = new List<Order>();
     
     public Customer(string firstName, string lastName, string cpf, string email, string phoneNumber, string address) 
     {

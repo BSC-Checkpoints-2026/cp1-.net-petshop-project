@@ -17,10 +17,10 @@ public class Appointment : BaseEntity
     public Guid EmployeeId {get; private set;}
     
     // Relacionementos N:1
-    
-    //public Pet Pet { get; private set; }
-    //public Service Service { get; private set; }
-    //public Employee Employee { get; private set; }
+
+    public List<Pet> Pets { get; private set; } = new List<Pet>();
+    public List<Service> Services { get; private set; } = new List<Service>();
+    public List<Employee> Employee { get; private set; } = new List<Employee>();
     
     // Construtor
 

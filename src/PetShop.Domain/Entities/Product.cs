@@ -14,9 +14,8 @@ public class Product : BaseEntity
     
     public int StockQuantity { get; private set; }
     
-    
     // Relacionamento 1:N
-    // Product 1:N OrderItem
+    public List<OrderItem> OrderItems { get; private set; } = new List<OrderItem>();
 
     public Product(Guid productId, string name, string description, decimal price, int stockQuantity)
     {

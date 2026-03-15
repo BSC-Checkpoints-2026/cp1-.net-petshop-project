@@ -4,8 +4,6 @@ namespace PetShop.Domain.Entities;
 
 public class Service : BaseEntity
 {
-    public Guid ServiceId { get; private set; } 
-    
     public string Name { get; private set; }
     
     public string Description { get; private set; }
@@ -14,13 +12,12 @@ public class Service : BaseEntity
     
     public int DurationInMinutes { get; private set; }
     
-    
     // Relacionamento 1:N
-    // Service 1:N Appointment
+    public List<Appointment> Appointments { get; private set; } = new List<Appointment>();
 
-    public Service(Guid serviceId, string name, string description, decimal price, int durationInMinutes)
+
+    public Service(string name, string description, decimal price, int durationInMinutes)
     {
-        ServiceId = serviceId;
         Name = name;
         Description = description;
         Price = price;
