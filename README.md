@@ -29,7 +29,7 @@
     </td>
     <td>
       <b>⚙️ Luna de Carvalho Guimarães</b><br/>
-      🆔 <b>RM:</b> 561810 &nbsp;&nbsp;|&nbsp;&nbsp; 🏫 <b>Turma:</b> 2TDSPG - FIAP <br/>
+      🆔 <b>RM:</b> 562290 &nbsp;&nbsp;|&nbsp;&nbsp; 🏫 <b>Turma:</b> 2TDSPG - FIAP <br/>
     </td>
   </tr>
 </table>
