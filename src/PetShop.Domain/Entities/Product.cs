@@ -2,9 +2,9 @@
 
 namespace PetShop.Domain.Entities;
 
-public class Service : BaseEntity
+public class Product : BaseEntity
 {
-    public Guid ServiceId { get; private set; } 
+    public Guid ProductId { get; private set; } 
     
     public string Name { get; private set; }
     
@@ -12,18 +12,18 @@ public class Service : BaseEntity
     
     public decimal Price { get; private set; }
     
-    public int DurationInMinutes { get; private set; }
+    public int StockQuantity { get; private set; }
     
     
     // Relacionamento 1:N
-    // Service 1:N Appointment
+    // Product 1:N OrderItem
 
-    public Service(Guid serviceId, string name, string description, decimal price, int durationInMinutes)
+    public Product(Guid productId, string name, string description, decimal price, int stockQuantity)
     {
-        ServiceId = serviceId;
+        ProductId = productId;
         Name = name;
         Description = description;
         Price = price;
-        DurationInMinutes = durationInMinutes;
+        StockQuantity = stockQuantity;
     }
 }
