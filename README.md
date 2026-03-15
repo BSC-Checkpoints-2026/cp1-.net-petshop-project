@@ -17,3 +17,32 @@ O sistema tem como objetivo auxiliar no gerenciamento de um petshop, permitindo 
 
 ---
 
+## Entidades Modeladas
+As entidades modeladas no sistema foram:
+
+* **Customer (Cliente):**
+  Representa o cliente do pet shop, responsável pelos pets cadastrados e pelos pedidos realizados na loja.
+
+* **Pet:**
+  Representa o animal pertencente ao cliente, contendo informações como nome, espécie, raça, peso e data de nascimento.
+
+* **Employee (Funcionário):**
+   Representa os funcionários do pet shop responsáveis por realizar os serviços disponibilizados no pet shop.
+
+* **Service (Serviço):**
+  Representa os serviços oferecidos pelo pet shop.
+
+* **Appointment (Agendamento):**
+  Representa o agendamento de um serviço para um pet, indicando qual serviço será realizado, em qual data e por qual funcionário.
+
+* **Product (Produto):**
+  Representa os produtos vendidos pelo pet shop.
+
+* **Order (Pedido):**
+  Representa um pedido realizado por um cliente.
+  
+* **OrderItem (Item do Pedido):**
+  Representa os produtos incluídos dentro de um pedido, indicando quantidade e preço unitário.
+
+---
+
