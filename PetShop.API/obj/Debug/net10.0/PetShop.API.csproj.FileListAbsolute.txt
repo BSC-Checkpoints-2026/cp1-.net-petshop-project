@@ -31,3 +31,4 @@ C:\Users\moise\Documents\fiap_c#\petShop\PetShop.API\obj\Debug\net10.0\refint\Pe
 C:\Users\moise\Documents\fiap_c#\petShop\PetShop.API\obj\Debug\net10.0\PetShop.API.pdb
 C:\Users\moise\Documents\fiap_c#\petShop\PetShop.API\obj\Debug\net10.0\PetShop.API.genruntimeconfig.cache
 C:\Users\moise\Documents\fiap_c#\petShop\PetShop.API\obj\Debug\net10.0\ref\PetShop.API.dll
+C:\Users\moise\Documents\fiap_c#\petShop\PetShop.API\obj\Debug\net10.0\PetShop.API.sourcelink.json
