@@ -17,4 +17,14 @@ public class OrderItem : BaseEntity
     //public Order Order { get; private set; }
     
     //public Product Product {get; private set;}
+    
+    // Construtor
+
+    public OrderItem(int quantity, decimal unitPrice, Guid orderId, Guid productId)
+    {
+        Quantity = quantity;
+        UnitPrice = unitPrice;
+        OrderId = orderId;
+        ProductId = productId;
+    }
 }
