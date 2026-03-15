@@ -1,0 +1,24 @@
+﻿using PetShop.Domain.Commom;
+using PetShop.Domain.Enums;
+
+namespace PetShop.Domain.Entities;
+
+public class Appointment : BaseEntity
+{
+    
+    public DateTime AppointmentDate { get; private set; }
+    
+    public  StatusEnum Status { get; private set; }
+    
+    public Guid PetId { get; private set; }
+    
+    public Guid ServiceId { get; private set; }
+    
+    public Guid EmployeeId {get; private set;}
+    
+    // Relacionementos N:1
+    
+    //public Pet Pet { get; private set; }
+    //public Service Service { get; private set; }
+    //public Employee Employee { get; private set; }
+}
