@@ -1,52 +1,78 @@
 # CP1 — Modelo Entidade-Relacionamento (MER) e Criação do Projeto WebAPI
 
-## Integrantes do Grupo
+## 👥 Integrantes do Grupo
 
-|  Nome              |  RM          |
-|  --------------    |  --------    |
-|  Sofia Siqueira    |  RM: 563829  |
-|  Moisés Barsoti    |  RM: 565049  |
-|  Luna de Carvalho  |  RM: 562290  |
+<table>
+  <tr>
+    <td width="130">
+      <img src="https://github.com/moisesBarsoti.png" width="120" style="border-radius: 50%;"/>
+    </td>
+    <td>
+      <b>👨‍💻 Moisés Barsoti Andrade de Oliveira</b><br/>
+      🆔 <b>RM:</b> 565049 &nbsp;&nbsp;|&nbsp;&nbsp; 🏫 <b>Turma:</b> 2TDSPG - FIAP <br/>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="130">
+      <img src="https://github.com/sSofia-s.png" width="120" style="border-radius: 50%;"/>
+    </td>
+    <td>
+      <b>🎨 Sofia Siqueira Fontes</b><br/>
+      🆔 <b>RM:</b> 563829 &nbsp;&nbsp;|&nbsp;&nbsp; 🏫 <b>Turma:</b> 2TDSPG - FIAP <br/>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="130">
+      <img src="https://github.com/lunaguima.png" width="120" style="border-radius: 50%;"/>
+    </td>
+    <td>
+      <b>⚙️ Luna de Carvalho Guimarães</b><br/>
+      🆔 <b>RM:</b> 561810 &nbsp;&nbsp;|&nbsp;&nbsp; 🏫 <b>Turma:</b> 2TDSPG - FIAP <br/>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Domínio Escolhido
+## 🏪 Domínio Escolhido
 
-O domínio escolhido para o projeto foi **Pet shop**.
+O domínio escolhido para o projeto foi 🐶 **Pet shop**.
 O sistema tem como objetivo auxiliar no gerenciamento de um pet shop, permitindo o controle de clientes, pets, serviços oferecidos, funcionários, agendamentos e vendas de produtos.
 
 ---
 
-## Entidades Modeladas
+## 🗂️ Entidades Modeladas
 As entidades modeladas no sistema foram:
 
-* **Customer (Cliente):**
+* **👤 Customer (Cliente):**
   Representa o cliente do pet shop, responsável pelos pets cadastrados e pelos pedidos realizados na loja.
 
-* **Pet:**
+* **🐶 Pet:**
   Representa o animal pertencente ao cliente, contendo informações como nome, espécie, raça, peso e data de nascimento.
 
-* **Employee (Funcionário):**
+* **👨‍💼 Employee (Funcionário):**
    Representa os funcionários do pet shop responsáveis por realizar os serviços disponibilizados no pet shop.
 
-* **Service (Serviço):**
+* **✂️ Service (Serviço):**
   Representa os serviços oferecidos pelo pet shop.
 
-* **Appointment (Agendamento):**
+* **📅 Appointment (Agendamento):**
   Representa o agendamento de um serviço para um pet, indicando qual serviço será realizado, em qual data e por qual funcionário.
 
-* **Product (Produto):**
+* **📦 Product (Produto):**
   Representa os produtos vendidos pelo pet shop.
 
-* **Order (Pedido):**
+* **🧾 Order (Pedido):**
   Representa um pedido realizado por um cliente.
   
-* **OrderItem (Item do Pedido):**
+* **📋 OrderItem (Item do Pedido):**
   Representa os produtos incluídos dentro de um pedido, indicando quantidade e preço unitário.
 
 ---
 
-## Resumo dos Relacionamentos
+## 🔗 Resumo dos Relacionamentos
 
 Os relacionamentos entre as entidades do sistema foram definidos da seguinte forma:
 
